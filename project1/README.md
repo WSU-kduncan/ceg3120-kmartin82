@@ -1,6 +1,6 @@
 ## Project 1  
 Kevin Martin  
-9/3/2021  
+9/4/2021  
 
 
 1. First I created a new user on my ubuntu server using the command $useradd git. 
