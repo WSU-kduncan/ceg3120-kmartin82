@@ -36,7 +36,7 @@ async def on_message(message):
 		      'A kid needs atleast one person who never gives up on them, no matter what.',
 		      'Cold war is a bloodless war. Mutual distrust and complete co-dependence.']
 
-    if message.content == 'towel!':
+    if message.content == 'rocinante':
         response = random.choice(expanse_quotes)
         await message.channel.send(response)
 
