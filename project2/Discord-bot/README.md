@@ -15,4 +15,4 @@
   - While the bot is running you can type the name of the ship from the Expanse "rocinante!" and it will return respond with a randomly selected quote from the show. 
 ## Research
   - One way that I found to keep the bot running is to use the screen command which in this project would be $ screen python3 bot.py
-  - This command allows the bot to run in the background of the terminal and even allows us to keep it running after the SSH connection has ben terminated.   
+  - This command allows the bot to run in the background of the terminal and even allows us to keep it running after the SSH connection has been terminated.   
