@@ -5,7 +5,6 @@ import random
 from dotenv import load_dotenv
 
 load_dotenv()
-#print(os.getenv('DISCORD_TOKEN'))
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 
@@ -30,11 +29,14 @@ async def on_message(message):
         return
 
     expanse_quotes = ['Its better to go down swinging than rolling over.',
-		      'As long as were living and breathing, theres more we can do. we just have to to be strong enough',
-		      'A child who wont grow up turns into a fool',
+		      'As long as were living and breathing, theres more we can do. we just have to to be strong enough.',
+		      'A child who wont grow up turns into a fool.',
 		      'Earthers have a home its time Belters had one, too.',
 		      'A kid needs atleast one person who never gives up on them, no matter what.',
-		      'Cold war is a bloodless war. Mutual distrust and complete co-dependence.']
+		      'Cold war is a bloodless war. Mutual distrust and complete co-dependence.',
+		      'Guilt is like salt. you put a little on, and it hides all the bitterness.',
+		      'Hate is a burden. you dont have to carry it with you.'
+		      ]
 
     if message.content == 'rocinante':
         response = random.choice(expanse_quotes)
