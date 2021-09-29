@@ -38,7 +38,7 @@ async def on_message(message):
 		      'Hate is a burden. you dont have to carry it with you.'
 		      ]
 
-    if message.content == 'rocinante':
+    if message.content == 'rocinante!':
         response = random.choice(expanse_quotes)
         await message.channel.send(response)
 
